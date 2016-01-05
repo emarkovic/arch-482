@@ -1,0 +1,46 @@
+Jan 5 - Course Intro
+
+Servers vs Clients
+	servers -> wifi/ethernet -> client
+	when a machine connects to a network, the network assigns that machine a unique IP address
+	there are domains on top of ip addresses which allows us humans to easily access those files 
+
+Protocol
+- ftp - file transfer protocol, this one was bad because it passed passwords in plain text
+- "sftp" or "ftp over ssh" was a more secure protocol.
+	
+
+
+Sir Tim Berners Lee - Father of the Web
+- needed a way to exchange files with other scientists, the best way to do this would be on a network
+- CERN
+- HTTP - hypertext transfer protocol
+	- sets the standard for file transfer
+- how to make sure that files across machines and servers look the same?
+	- wysiwyg - what you see is what you get - like microsoft world, but html is not like this
+	- markup - more symbols are added that make text or whatever appear the way you really want it to.
+		html = hypertext markup language, browser standard for text
+
+Browsers
+- 1st is mosiac, then netscape, then, in time, microsoft internet explorer
+- broswers were open source so anyone can contribute and make their own browsers
+	- people got crazy with their additions - this is where <blink></blink> came from.		
+- how to distinguish btwn different kinds of content
+	- text - html 
+	- appearance - css
+	- behavior - javascript
+		- link 
+
+IP addresses, Domains and file structures
+- quicksilver.be.washington.edu -> 128.95.168.40
+- its convenient to think of file structures as trees
+				top
+			  /     \
+			a 		  b
+		  /  \
+		one   two	
+		/
+	file.ext		
+	-> http://quicksilver.be.washington.edu/a/one/file.ext <- where the file is and how to get it
+	   ^ url/uri	
+	- the http tells it what format to fetch at
