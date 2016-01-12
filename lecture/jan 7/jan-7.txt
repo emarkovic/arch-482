@@ -1,0 +1,14 @@
+Jan 7 - 
+
+Review from Jan 5
+- browser requests file and file is delivered to the browser, this is stateless
+- tim berners lee - first person that set out http and html, it was very simple at first
+- wwwc = w3c - this is the collaborative governing body for the web
+
+- linux and windows file paths are case sensitive 
+- mac file paths are case insensitive
+
+html
+- <img src="">
+- whitespace within the tags are not ignored 
+	ex. "<   b  >" will be displayed as "< b >"
