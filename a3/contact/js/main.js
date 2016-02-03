@@ -13,6 +13,10 @@ document.addEventListener('DOMContentLoaded', function () {
 		clicked = [false, false, false];
 
 	imgs.forEach(function (img, i) {
+		img.addEventListener('mouseenter', function () {
+			this.style.cursor = 'pointer';
+		});
+
 		img.addEventListener('click', function () {
 			var imgClicked = clicked[i];
 			
