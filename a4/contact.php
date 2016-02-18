@@ -16,7 +16,7 @@
 				<?php } ?>
 
 				<div class='contact-img'>
-					<img src="../img/email.svg" alt="email thumbnail" class="thumbnail" id="emailImg">
+					<img src="img/email.svg" alt="email thumbnail" class="thumbnail" id="emailImg">
 					<p class="link" id="emailLink">Send me an email at em42@uw.edu</p>
 				</div>
 			</div>
