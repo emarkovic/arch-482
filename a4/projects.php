@@ -19,14 +19,6 @@
 					<?php }?>
 							</div>
 					<?php } ?>
-
-			<!-- 		<div class="info" id="cursorTrail-info">
-						<h2>Cursor Trails <span class="small-caps">Fall 2014</span></h2>
-						<p>My first JavaScript application! Playing around with Processing.js. Originally got the idea from Khan Academy's "Intro to js: Animation and Drawing" tutorial.</p>
-						<p>Check out <a href="http://www.enamarkovic.com/projects/cursor-trail/">Cursor Trails</a>!</p>
-						<p>Tech used: JavaScript, BootStrap, jQuery, Processing.js</p>
-						<p>Made for: Personal project</p>
-					</div>  -->
 				</div>				
 			</div>
 		</section>

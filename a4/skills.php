@@ -1,21 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Ena's Portfolio</title>
-
-		<link rel="stylesheet" href="css/main.css">
-	</head>
-	<body>
-		<nav>
-			<ul class="nav">
-				<li class="nav-pill"><a href="../index.html">Home</a></li>
-				<li class="nav-pill"><a href="../contact/index.html"></a>Contact</li>
-				<li class="nav-pill"><a href="../resume/index.html">Resume</a></li>
-				<li class="nav-pill active">Skills</li>
-				<li class="nav-pill"><a href="../projects/index.html">Projects</a></li>
-			</p>
-		</nav> -->
 <?php require('navbar.php'); ?>
 
 		<section>
