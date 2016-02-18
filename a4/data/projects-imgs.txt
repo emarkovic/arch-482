@@ -1,0 +1,15 @@
+newsMeter|img/newsMeter.png
+breadcrumbs|img/breadcrumbs.png
+spent|img/spent.png
+cart|img/cart.png
+spotify|img/spotify.png
+reviews|img/reviews.png
+trafficCams|img/trafficCam.png
+dawgCoffee|img/dawgCoffee.png
+datacenter|img/datacenter.png
+15puzzle|img/15puzzle.png
+speedReader|img/speedreader.png
+todo|img/todo.png
+draw|img/draw.png
+rapName|img/rapName.png
+cursorTrail|img/cursorTrail.png

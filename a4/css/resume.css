@@ -1,0 +1,103 @@
+/*
+/*
+container - push content away from the edges of the screen
+small-caps - makes caps small
+hidden-xs - hide on smaller 
+pull-right - float to the right
+visible-xs-block - visible when screen is small and is displayed as block
+content - comes after a header, needs to be indented a lil
+*/
+@import url(https://fonts.googleapis.com/css?family=Lato:300,300italic);
+
+body {
+	font-family: Lato, 'Helvetica Neue', Helvetica, sans-serif;
+	letter-spacing: 0.05em;
+	padding: 10px;
+}
+
+td {
+	vertical-align: top;
+}
+
+li {
+	margin-bottom: 3px;
+}
+
+h2 {
+	margin-bottom: 10px;
+}
+
+p {
+	margin-bottom: 5px;
+}
+
+p, ul {
+	margin-top: 5px;
+
+}
+
+#name {
+	text-align: center;
+}
+
+#name h1 {
+	margin-bottom: 5px;
+}
+
+.container {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content {
+	padding-left: 15px;
+}
+
+.small-caps {
+	font-variant: small-caps;
+}
+
+.hidden-xs {
+	display: none;
+}
+
+.visible-xs-block {
+	display: block;
+}
+
+@media(min-width: 768px) {
+	.container {
+		width: 748px;
+	}
+
+	.content {
+		padding-left: 25px;
+	}
+
+	.visible-xs-block {
+		display: none;
+	}
+
+	.hidden-xs {
+		visibility: visible;
+		display: inline;
+	}
+
+	.pull-right {
+		float: right;
+	}
+}
+
+@media(min-width: 992px) {
+	.container {
+		width: 972px;
+	}
+}
+
+@media(min-width: 1200px) {
+	.container {
+		width: 1180px;
+	}
+}
