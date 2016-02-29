@@ -1,0 +1,141 @@
+/*
+FONT_COLOR -> #7C7877
+BACKGROUND_COLOR -> #fffff5
+STATEMENT_COLOR -> #ABD0CE
+ */
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	
+	background-color: #fffff5;
+}
+body {
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;	
+	color: #7C7877;
+	margin-top: 44px;
+	
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: greyscale;
+	-moz-font-feature-settings: 'liga' on;
+}
+
+.container {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.right {
+	float: right;
+}
+
+/*Navbar section*/
+.nav-menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #ABD0CE;
+	z-index: 100;
+}
+
+.nav-menu a {
+	text-decoration: none;
+	color: #7C7877;
+	opacity: 0.85;
+}
+
+.nav-menu a:hover, .nav-menu a:focus, .nav-menu .right:hover {
+	color: #fffff5;
+	cursor: pointer;
+} 
+
+.nav-menu li {
+	display: inline-block;
+	padding: 0.5em;
+	font-size: 20px;
+}
+
+.left {
+	float: left;
+	margin-right: 5%;
+}
+
+.nav-menu ul {
+	padding-left: 0;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+
+
+/*Post section*/
+.posts-section {
+	margin-top: 177px;
+}
+
+.posts-section h2 {
+	font-size: 90%;
+}
+
+.header {
+	border-bottom: 1px solid #7C7877;
+}
+
+.header h1 {
+	margin-bottom: 5px;
+}
+
+.header h1, .post-title, .post-user, .post-created {
+	display: inline-block;
+}
+
+.header-title, .post-title, .header-user, .header-created, .post-user, .post-created {
+	width: 30%;
+}
+
+.post-title, .header-title {
+	margin-left: 10px;
+}
+
+#addPost {
+	margin-top: 15px;
+	text-decoration: none;
+	color: #7C7877;
+}
+
+.post-title:hover, #addPost:hover {
+	cursor: pointer;
+	color: #ABD0CE;
+}
+
+
+@media(min-width: 768px) {
+	.container {
+		width: 748px;
+	}
+}
+
+@media(min-width: 992px) {
+	.container {
+		width: 972px;
+	}
+
+	.header-title, .post-title {
+		width: 49%;
+	}
+
+	.header-user, .header-created, .post-user, .post-created {
+		width: 24.5%;
+	}
+}
+
+@media(min-width: 1200px) {
+	.container {
+		width: 1180px;
+	}
+}

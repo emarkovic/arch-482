@@ -1,0 +1,59 @@
+html {
+	font-family: Helvetica, sans-serif;
+	font-weight: lighter;
+	background-color: #F8FAFF;
+	color: #52616a;
+}
+
+h1, h3 {
+	font-weight: lighter;
+}
+
+h2, h3 {
+	text-align: center;
+}
+
+.fa-chevron-left {
+	float: left;
+}
+
+.fa-chevron-right {
+	float: right;
+}
+
+.fa:hover {
+	color: #dddfe6;
+	cursor: pointer;
+}
+
+.more-info:hover {
+	cursor: pointer;
+	color: #88dba3;
+}
+
+.content {
+	width: 500px;
+}
+
+.container {
+	margin-left: 5px;
+}
+
+td {
+	padding: 5px;
+	text-align: center;
+}
+
+a {
+	color: #52616a;
+}
+
+#filter {	
+	border-bottom: 1px #52616a solid;
+	margin-bottom: 15px;
+}
+
+#filter p {	
+	text-align: center;
+	margin-bottom: 5px;
+}

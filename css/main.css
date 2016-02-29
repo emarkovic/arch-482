@@ -66,6 +66,11 @@ p, ul {
 	display: block;
 }
 
+iframe {
+	width: 520px;
+	height: 400px;
+}
+
 @media(min-width: 768px) {
 	.container {
 		width: 748px;
