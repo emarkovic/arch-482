@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		var filter = this.value,
 			month = this.dataset.month,
 			year = this.dataset.year;
-		window.location.replace('http://localhost/a5/calendar.php?month=' + month +'&year=' + year + '&filter=' + filter);
+		window.location.replace('http://students.washington.edu/em42/arch482/a5/calendar.php?month=' + month +'&year=' + year + '&filter=' + filter);
 	})
 
 	for (var i = 0; i < events.length; i++) {
