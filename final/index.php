@@ -1,7 +1,8 @@
 <?php
 include('header.php');
-
-print $_GET['post-content'];
+print $_POST['post-contents'];
+// $file_name = 'data.txt';
+// print file_get_contents($file_name);
 ?>
 		<section class="posts-section">
 			<div class="container">
