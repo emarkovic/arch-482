@@ -71,8 +71,6 @@ body {
 	margin-top: 0;
 }
 
-
-
 /*Post section*/
 .posts-section {
 	margin-top: 177px;
@@ -102,15 +100,36 @@ body {
 	margin-left: 10px;
 }
 
-#addPost {
+.btn {
 	margin-top: 15px;
 	text-decoration: none;
 	color: #7C7877;
 }
 
-.post-title:hover, #addPost:hover {
+.post-title:hover, .btn:hover, .submit:hover {
 	cursor: pointer;
 	color: #ABD0CE;
+}
+
+/*Add a post section*/
+section {
+	margin-top: 177px;
+}
+
+textarea {
+	width: 100%;
+	height: 100px;
+}
+
+.nav-menu .active {
+	color:  #fffff5;
+}
+
+.submit {
+	cursor: pointer;
+	background-color: #fffff5;
+	border: none;	
+	font-size: 18px;
 }
 
 

@@ -1,11 +1,3 @@
-/*
-container - push content away from the edges of the screen
-small-caps - makes caps small
-hidden-xs - hide on smaller 
-pull-right - float to the right
-visible-xs-block - visible when screen is small and is displayed as block
-content - comes after a header, needs to be indented a lil
-*/
 @import url(https://fonts.googleapis.com/css?family=Lato:300,300italic);
 
 body {
