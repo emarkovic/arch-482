@@ -16,7 +16,7 @@
 		} 
 	}
 
-	header("Location: http://localhost/final/index.php");
+	header("Location: http://students.washington.edu/em42/arch482/final/index.php");
 	exit();
 
 	function get_theme_id($db, $themeName) {

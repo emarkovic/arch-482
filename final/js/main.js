@@ -7,6 +7,6 @@ document.addEventListener('DOMContentLoaded', function () {
 		var color = this.value;
 
 		styleSheet.href = 'css/' + color + '.css';
-		window.location.replace('http://localhost/final/updateTheme.php?themeName=' + color);
+		window.location.replace('http://students.washington.edu/em42/arch482/final/updateTheme.php?themeName=' + color);
 	})
 });

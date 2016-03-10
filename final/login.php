@@ -13,7 +13,7 @@
 		if (!empty($results)) {		
 			session_start();	
 			$_SESSION['userId'] = $results[0]['userId'];
-			header('Location: http://localhost/final/');
+			header('Location: http://students.washington.edu/em42/arch482/final/');
 			exit();
 		} else {
 			error('User does not exist.');
@@ -24,7 +24,7 @@
 	}
 
 	function error($error_message) {
-		header("Location: http://localhost/final/loginForm.php?error=$error_message");
+		header("Location: http://students.washington.edu/em42/arch482/final/loginForm.php?error=$error_message");
 		exit();
 	}
 ?>

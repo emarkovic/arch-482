@@ -11,6 +11,6 @@
 		$db->query($query);
 	}
 
-	header('Location: http://localhost/final/');
+	header('Location: http://students.washington.edu/em42/arch482/final/');
 	exit();
 ?>

@@ -3,6 +3,6 @@
 	$_SESSION = array();
 	session_destroy();
 
-	header('Location: http://localhost/final/');
+	header('Location: http://students.washington.edu/em42/arch482/final/');
 	exit();
 ?>

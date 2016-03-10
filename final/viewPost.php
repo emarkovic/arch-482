@@ -4,7 +4,7 @@
 	if (!empty($_GET['postId'])) {
 		$postId = $_GET['postId'];
 	} else {
-		header('Location: http://localhost/final/');
+		header('Location: http://students.washington.edu/em42/arch482/final/');
 		exit();
 	}
 	//post has: postId, userId, catId, views, title, postContnet, timestamp

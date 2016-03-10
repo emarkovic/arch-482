@@ -26,14 +26,14 @@
 			error('User already exists.');
 		}
 
-		header('Location: http://localhost/final/');
+		header('Location: http://students.washington.edu/em42/arch482/final/');
 		exit();
 	} else {
 		error('Enter a user name, email and password.');
 	}
 
 	function error($error_message) {
-		header("Location: http://localhost/final/signupForm.php?error=$error_message");
+		header("Location: http://students.washington.edu/em42/arch482/final/signupForm.php?error=$error_message");
 		exit();
 	}
 
