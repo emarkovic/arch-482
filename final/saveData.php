@@ -1,11 +1,16 @@
 <?php
-	$file_name = 'data.txt';
-	print_r($_POST['post-content']);
-	// if (!empty($_GET['post-content'])) {
-	// 	file_put_contents($file_name, $_GET['post-content']);
-	// 	print file_get_contents($file_name);
-	// } 
+	include('common.php');
 
-	// header('Location: index.php');
-	// exit();
+	if (!empty($_POST['title']) && !empty($_POST['content'])) {
+		$userId = $db->quote($user_info['userId']);		
+		$title = $db->quote($_POST['title']);
+		$content = $db->quote($_POST['content']);
+
+		$query = "INSERT INTO post(userId, title, postContent)
+			VALUES($userId, $title, $content)";
+		$db->query($query);
+	}
+
+	header('Location: http://localhost/final/');
+	exit();
 ?>

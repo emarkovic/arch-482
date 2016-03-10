@@ -6,8 +6,8 @@ STATEMENT_COLOR -> #ABD0CE
 html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
-	
-	background-color: #fffff5;
+		
+	background-color: #fff;
 }
 body {
 	font-family: 'Helvetica Neue', Helvetica, sans-serif;	
@@ -71,10 +71,14 @@ body {
 	margin-top: 0;
 }
 
-/*Post section*/
-.posts-section {
-	margin-top: 177px;
+section {
+	margin-top: 100px;
 }
+
+/*Post section*/
+/*.posts-section {
+	margin-top: 150px;
+}*/
 
 .posts-section h2 {
 	font-size: 90%;
@@ -106,15 +110,20 @@ body {
 	color: #7C7877;
 }
 
-.post-title:hover, .btn:hover, .submit:hover {
+.post-title a {
+	text-decoration: none;
+	color: #7C7877;
+}
+
+.post-title a:hover, .btn:hover, .submit:hover {
 	cursor: pointer;
 	color: #ABD0CE;
 }
 
 /*Add a post section*/
-section {
+/*.add-post-section {
 	margin-top: 177px;
-}
+}*/
 
 textarea {
 	width: 100%;
@@ -132,6 +141,36 @@ textarea {
 	font-size: 18px;
 }
 
+.add-post {
+	font-size: 18pt;
+	margin-bottom: 10px;	
+	margin-left: 0px;
+	width: 100%;
+	padding: 5px;
+	border-color: #7C7877;	
+}
+
+.add-post:hover {
+	cursor: text;
+}
+
+.add-post-content {
+	height: 100px;
+
+}
+
+/*view post*/
+.view-post {
+	overflow: hidden;
+}
+
+.view-post hr {
+	clear: both;
+}
+
+.content {
+	margin-left: 10px;
+}
 
 @media(min-width: 768px) {
 	.container {
