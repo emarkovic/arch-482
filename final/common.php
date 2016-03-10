@@ -3,8 +3,8 @@
 
 	$db = start_database();
 	$logged_in = is_logged_in();
-	//will be an empty array if not logged in
-	$user_info = get_current_user_info($db, $_SESSION['userId']);
+	//will be an empty array if not logged in	
+	$user_info = get_current_user_info($db);
 
 	function start_database() {
 		$host = '128.95.103.44';
@@ -25,9 +25,10 @@
 		return !empty($_SESSION['userId']);		
 	}
 
-	function get_current_user_info($db, $id) {
+	function get_current_user_info($db) {
 		if (is_logged_in()) {
-			$id = $db->quote($id);
+			$id = $db->quote($_SESSION['userId']);
+			
 			$query = "SELECT userId, userName, themeId FROM user
 				WHERE userId = $id";
 			return $db->query($query)->fetchAll(PDO::FETCH_ASSOC)[0];

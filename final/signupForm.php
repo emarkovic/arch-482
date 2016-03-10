@@ -8,8 +8,11 @@
 					?> <p class="error"><?=$_GET['error']?></p> <?php
 					$_GET = array();
 				}
-			?>	
-				<form action="login.php" method="post">
+			?>				
+				<form action="signup.php" method="post">
+					User name:
+					<input type="text" name="userName">
+					<br>
 					Email: 
 					<input type="text" name="email">
 					<br>
@@ -17,8 +20,7 @@
 					<input type="password" name="password">
 					<br>
 					<input type="submit">				
-				</form>
-				<p>Don't have an account? <a href="signupForm.php">Sign up!</a></p>
+				</form>				
 			</div>
 		</section>
 	</body>	
