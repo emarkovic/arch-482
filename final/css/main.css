@@ -81,6 +81,11 @@ li {
 	display: inline;
 }
 
+/*Drop down*/
+#changeTheme {
+	color: #DDD;
+}
+
 /*About page*/
 .centered {	
 	text-align: center;
